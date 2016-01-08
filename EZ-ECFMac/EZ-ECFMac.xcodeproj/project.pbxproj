@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8D0350801C3F569D0055C7A1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D03507F1C3F569D0055C7A1 /* AppDelegate.swift */; };
+		8D0350821C3F569D0055C7A1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0350811C3F569D0055C7A1 /* ViewController.swift */; };
+		8D0350841C3F569D0055C7A1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D0350831C3F569D0055C7A1 /* Assets.xcassets */; };
+		8D0350871C3F569D0055C7A1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D0350851C3F569D0055C7A1 /* Main.storyboard */; };
+		8D0350921C3F569D0055C7A1 /* EZ_ECFMacTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D0350911C3F569D0055C7A1 /* EZ_ECFMacTests.swift */; };
+		8D03509D1C3F569D0055C7A1 /* EZ_ECFMacUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D03509C1C3F569D0055C7A1 /* EZ_ECFMacUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8D03508E1C3F569D0055C7A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D0350741C3F569D0055C7A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D03507B1C3F569D0055C7A1;
+			remoteInfo = "EZ-ECFMac";
+		};
+		8D0350991C3F569D0055C7A1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8D0350741C3F569D0055C7A1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8D03507B1C3F569D0055C7A1;
+			remoteInfo = "EZ-ECFMac";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8D03507C1C3F569D0055C7A1 /* EZ-ECFMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EZ-ECFMac.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D03507F1C3F569D0055C7A1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8D0350811C3F569D0055C7A1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8D0350831C3F569D0055C7A1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8D0350861C3F569D0055C7A1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8D0350881C3F569D0055C7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D03508D1C3F569D0055C7A1 /* EZ-ECFMacTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EZ-ECFMacTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D0350911C3F569D0055C7A1 /* EZ_ECFMacTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZ_ECFMacTests.swift; sourceTree = "<group>"; };
+		8D0350931C3F569D0055C7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8D0350981C3F569D0055C7A1 /* EZ-ECFMacUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EZ-ECFMacUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8D03509C1C3F569D0055C7A1 /* EZ_ECFMacUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EZ_ECFMacUITests.swift; sourceTree = "<group>"; };
+		8D03509E1C3F569D0055C7A1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8D0350791C3F569D0055C7A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D03508A1C3F569D0055C7A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0350951C3F569D0055C7A1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8D0350731C3F569D0055C7A1 = {
+			isa = PBXGroup;
+			children = (
+				8D03507E1C3F569D0055C7A1 /* EZ-ECFMac */,
+				8D0350901C3F569D0055C7A1 /* EZ-ECFMacTests */,
+				8D03509B1C3F569D0055C7A1 /* EZ-ECFMacUITests */,
+				8D03507D1C3F569D0055C7A1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8D03507D1C3F569D0055C7A1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8D03507C1C3F569D0055C7A1 /* EZ-ECFMac.app */,
+				8D03508D1C3F569D0055C7A1 /* EZ-ECFMacTests.xctest */,
+				8D0350981C3F569D0055C7A1 /* EZ-ECFMacUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8D03507E1C3F569D0055C7A1 /* EZ-ECFMac */ = {
+			isa = PBXGroup;
+			children = (
+				8D03507F1C3F569D0055C7A1 /* AppDelegate.swift */,
+				8D0350811C3F569D0055C7A1 /* ViewController.swift */,
+				8D0350831C3F569D0055C7A1 /* Assets.xcassets */,
+				8D0350851C3F569D0055C7A1 /* Main.storyboard */,
+				8D0350881C3F569D0055C7A1 /* Info.plist */,
+			);
+			path = "EZ-ECFMac";
+			sourceTree = "<group>";
+		};
+		8D0350901C3F569D0055C7A1 /* EZ-ECFMacTests */ = {
+			isa = PBXGroup;
+			children = (
+				8D0350911C3F569D0055C7A1 /* EZ_ECFMacTests.swift */,
+				8D0350931C3F569D0055C7A1 /* Info.plist */,
+			);
+			path = "EZ-ECFMacTests";
+			sourceTree = "<group>";
+		};
+		8D03509B1C3F569D0055C7A1 /* EZ-ECFMacUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8D03509C1C3F569D0055C7A1 /* EZ_ECFMacUITests.swift */,
+				8D03509E1C3F569D0055C7A1 /* Info.plist */,
+			);
+			path = "EZ-ECFMacUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8D03507B1C3F569D0055C7A1 /* EZ-ECFMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0350A11C3F569D0055C7A1 /* Build configuration list for PBXNativeTarget "EZ-ECFMac" */;
+			buildPhases = (
+				8D0350781C3F569D0055C7A1 /* Sources */,
+				8D0350791C3F569D0055C7A1 /* Frameworks */,
+				8D03507A1C3F569D0055C7A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EZ-ECFMac";
+			productName = "EZ-ECFMac";
+			productReference = 8D03507C1C3F569D0055C7A1 /* EZ-ECFMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8D03508C1C3F569D0055C7A1 /* EZ-ECFMacTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0350A41C3F569D0055C7A1 /* Build configuration list for PBXNativeTarget "EZ-ECFMacTests" */;
+			buildPhases = (
+				8D0350891C3F569D0055C7A1 /* Sources */,
+				8D03508A1C3F569D0055C7A1 /* Frameworks */,
+				8D03508B1C3F569D0055C7A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D03508F1C3F569D0055C7A1 /* PBXTargetDependency */,
+			);
+			name = "EZ-ECFMacTests";
+			productName = "EZ-ECFMacTests";
+			productReference = 8D03508D1C3F569D0055C7A1 /* EZ-ECFMacTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8D0350971C3F569D0055C7A1 /* EZ-ECFMacUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8D0350A71C3F569D0055C7A1 /* Build configuration list for PBXNativeTarget "EZ-ECFMacUITests" */;
+			buildPhases = (
+				8D0350941C3F569D0055C7A1 /* Sources */,
+				8D0350951C3F569D0055C7A1 /* Frameworks */,
+				8D0350961C3F569D0055C7A1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8D03509A1C3F569D0055C7A1 /* PBXTargetDependency */,
+			);
+			name = "EZ-ECFMacUITests";
+			productName = "EZ-ECFMacUITests";
+			productReference = 8D0350981C3F569D0055C7A1 /* EZ-ECFMacUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8D0350741C3F569D0055C7A1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jon Slaughter";
+				TargetAttributes = {
+					8D03507B1C3F569D0055C7A1 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					8D03508C1C3F569D0055C7A1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8D03507B1C3F569D0055C7A1;
+					};
+					8D0350971C3F569D0055C7A1 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 8D03507B1C3F569D0055C7A1;
+					};
+				};
+			};
+			buildConfigurationList = 8D0350771C3F569D0055C7A1 /* Build configuration list for PBXProject "EZ-ECFMac" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8D0350731C3F569D0055C7A1;
+			productRefGroup = 8D03507D1C3F569D0055C7A1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8D03507B1C3F569D0055C7A1 /* EZ-ECFMac */,
+				8D03508C1C3F569D0055C7A1 /* EZ-ECFMacTests */,
+				8D0350971C3F569D0055C7A1 /* EZ-ECFMacUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8D03507A1C3F569D0055C7A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0350841C3F569D0055C7A1 /* Assets.xcassets in Resources */,
+				8D0350871C3F569D0055C7A1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D03508B1C3F569D0055C7A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0350961C3F569D0055C7A1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8D0350781C3F569D0055C7A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0350821C3F569D0055C7A1 /* ViewController.swift in Sources */,
+				8D0350801C3F569D0055C7A1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0350891C3F569D0055C7A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D0350921C3F569D0055C7A1 /* EZ_ECFMacTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8D0350941C3F569D0055C7A1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D03509D1C3F569D0055C7A1 /* EZ_ECFMacUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8D03508F1C3F569D0055C7A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D03507B1C3F569D0055C7A1 /* EZ-ECFMac */;
+			targetProxy = 8D03508E1C3F569D0055C7A1 /* PBXContainerItemProxy */;
+		};
+		8D03509A1C3F569D0055C7A1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8D03507B1C3F569D0055C7A1 /* EZ-ECFMac */;
+			targetProxy = 8D0350991C3F569D0055C7A1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8D0350851C3F569D0055C7A1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8D0350861C3F569D0055C7A1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8D03509F1C3F569D0055C7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8D0350A01C3F569D0055C7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8D0350A21C3F569D0055C7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EZ-ECFMac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Insane-Computer-Endeavours.EZ-ECFMac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8D0350A31C3F569D0055C7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EZ-ECFMac/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Insane-Computer-Endeavours.EZ-ECFMac";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		8D0350A51C3F569D0055C7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EZ-ECFMacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Insane-Computer-Endeavours.EZ-ECFMacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZ-ECFMac.app/Contents/MacOS/EZ-ECFMac";
+			};
+			name = Debug;
+		};
+		8D0350A61C3F569D0055C7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EZ-ECFMacTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Insane-Computer-Endeavours.EZ-ECFMacTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EZ-ECFMac.app/Contents/MacOS/EZ-ECFMac";
+			};
+			name = Release;
+		};
+		8D0350A81C3F569D0055C7A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EZ-ECFMacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Insane-Computer-Endeavours.EZ-ECFMacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "EZ-ECFMac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		8D0350A91C3F569D0055C7A1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "EZ-ECFMacUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Insane-Computer-Endeavours.EZ-ECFMacUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "EZ-ECFMac";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8D0350771C3F569D0055C7A1 /* Build configuration list for PBXProject "EZ-ECFMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D03509F1C3F569D0055C7A1 /* Debug */,
+				8D0350A01C3F569D0055C7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8D0350A11C3F569D0055C7A1 /* Build configuration list for PBXNativeTarget "EZ-ECFMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0350A21C3F569D0055C7A1 /* Debug */,
+				8D0350A31C3F569D0055C7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D0350A41C3F569D0055C7A1 /* Build configuration list for PBXNativeTarget "EZ-ECFMacTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0350A51C3F569D0055C7A1 /* Debug */,
+				8D0350A61C3F569D0055C7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8D0350A71C3F569D0055C7A1 /* Build configuration list for PBXNativeTarget "EZ-ECFMacUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D0350A81C3F569D0055C7A1 /* Debug */,
+				8D0350A91C3F569D0055C7A1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8D0350741C3F569D0055C7A1 /* Project object */;
+}
